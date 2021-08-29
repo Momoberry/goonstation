@@ -446,7 +446,10 @@
 	icon_state  = "radiobrain"
 
 	OnAdd()
-		radio_brains += owner
+		radio_brains[owner] = power
+
+	onPowerChange(oldval, newval)
+		radio_brains[owner] = newval
 
 	OnRemove()
 		radio_brains -= owner
