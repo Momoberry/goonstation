@@ -415,6 +415,17 @@
 
 				T.equip_if_possible(src,T.slot_wear_mask)
 
+/obj/item/clothing/mask/gas/Silencer
+	name = "mime mask"
+	desc = "An aged, dusty artefact from France, used by a devout group of mimes truly dedicated to their craft. Eliminates all sound caused from your actions."
+	icon_state = "mime"
+	item_state = "mime"
+	item_function_flags = IMMUNE_TO_ACID
+	burn_possible = 0
+	color_r = 1
+	color_g = 1
+	color_b = 1
+	w_class = W_CLASS_SMALL
 
 /obj/item/clothing/mask/medical
 	name = "medical mask"
