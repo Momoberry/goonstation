@@ -101,43 +101,51 @@
 	possible_names = list("Got some good weed seeds here for sale.",
 	"If you can't get your hands on some weed seeds, i'll sell you some.")
 
+/datum/commodity/trader/buford/happyplant
+	comname = "Happy Plant Mixture"
+	comtype = /obj/item/reagent_containers/glass/happyplant
+	amount = 5
+	price_boundary = list(400,1000)
+	possible_names = list("Found some high-end nutrient mixtures in the back, these'll really give your weed some kick.",
+	"Selling some Happy Plant Mix that I've got left over from the last batch, it's top notch.")
+
 /datum/commodity/trader/buford/powerplant
 	comname = "Saltpetre Plant Formula"
-	comtype = /obj/item/reagent_containers/glass/bottle/powerplant
-	amount = 20
-	price_boundary = list(50,100)
+	comtype = /obj/item/reagent_containers/glass/saltpetrebulk
+	amount = 5
+	price_boundary = list(200,500)
 	possible_names = list("Got some good nutrients to make your plants more potent.",
 	"I'm selling some Powerplant formula. It's great for making your herbs more potent.")
 
 /datum/commodity/trader/buford/mutriant
 	comname = "Mutagenic Plant Formula"
-	comtype = /obj/item/reagent_containers/glass/bottle/mutriant
-	amount = 20
-	price_boundary = list(50,100)
+	comtype = /obj/item/reagent_containers/glass/mutagenicbulk
+	amount = 5
+	price_boundary = list(200,500)
 	possible_names = list("Got some weird plant nutrients. It makes your plants mutate more often.",
 	"Mutriant formula for sale. Makes your plants go all fucked up and weird. In a good way. I hope.")
 
 /datum/commodity/trader/buford/topcrop
 	comname = "Potash Plant Formula"
-	comtype = /obj/item/reagent_containers/glass/bottle/topcrop
-	amount = 20
-	price_boundary = list(50,100)
+	comtype = /obj/item/reagent_containers/glass/potashbulk
+	amount = 5
+	price_boundary = list(200,500)
 	possible_names = list("Got some plant nutrients that'll encourage huge yields.",
 	"Got some good old Top Crop formula. I'm buying most of the good shit you grow, by the way.")
 
 /datum/commodity/trader/buford/groboost
 	comname = "Ammonia Plant Formula"
-	comtype = /obj/item/reagent_containers/glass/bottle/groboost
-	amount = 20
-	price_boundary = list(50,100)
+	comtype = /obj/item/reagent_containers/glass/ammoniabulk
+	amount = 5
+	price_boundary = list(200,500)
 	possible_names = list("Selling some great nutrients for making plants grow fast.",
 	"Gro-Boost for sale, great nutrients that make your plants grow really quickly.")
 
 /datum/commodity/trader/buford/fruitful
 	comname = "Mutadone Plant Formula"
-	comtype = /obj/item/reagent_containers/glass/bottle/fruitful
-	amount = 20
-	price_boundary = list(50,100)
+	comtype = /obj/item/reagent_containers/glass/mutadonebulk
+	amount = 5
+	price_boundary = list(200,500)
 	possible_names = list("Got some nutrients that'll fix any bad shit on your plants.",
 	"Got some good Fruitful Farming formula here. Got any ill plants, this'll fix em.")
 
